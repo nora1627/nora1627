@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #e6e2d7;
+    color: #000;
+    font-family: 'Noto Serif JP', serif;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+li {
+    list-style: none;
+}
+#main-visual img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
