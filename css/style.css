@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 
+
+
 html {
     font-size: 100%;
 }
@@ -30,10 +32,38 @@ li {
 }
 .wrapper{
     width: 100%;
-    padding: 0 10%;
+    padding: 0 20%;
+
 
 }
 #claim{
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 120px;
+    justify-content: space-between;
+
 }
+#phot1{
+    width: 45%;
+    margin-top: 50px;
+}
+#phot1 img{
+    height: 100%;
+    object-fit: cover;
+}
+#text1{
+    width: 45%;
+    writing-mode: vertical-rl;
+}
+#text1 p{
+    margin-top: 50px;
+    margin-right: 5%;
+    line-height: 40px;
+    
+}
+.spell{
+    font-size: 1rem;
+}
+
+
+
+
