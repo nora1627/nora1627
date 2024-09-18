@@ -22,6 +22,9 @@ img {
 li {
     list-style: none;
 }
+main{
+    background-color: #b09e91;
+}
 #main-visual{
     margin-bottom: 120px;
 }
@@ -63,7 +66,23 @@ li {
 .spell{
     font-size: 1rem;
 }
-
-
-
-
+#menu .section-title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.recommend li{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+#phot2{
+    width: 45%;
+}
+#phot2 img{
+    height: 100%;
+    object-fit: cover;
+}
+#text2{
+    width: 45%;
+    
+}
