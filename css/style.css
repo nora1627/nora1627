@@ -66,6 +66,11 @@ main{
 .spell{
     font-size: 1rem;
 }
+.spell h1{
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+}
 #menu .section-title{
     text-align: center;
     font-size: 1.5rem;
@@ -73,12 +78,13 @@ main{
 .recommend li{
     display: flex;
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 80px 0;
+    border-top: 1px solid #000;
 }
-#phot2{
+.picture{
     width: 45%;
 }
-#phot2 img{
+.picture img{
     height: 100%;
     object-fit: cover;
 }
