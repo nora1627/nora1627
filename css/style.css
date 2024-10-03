@@ -80,6 +80,7 @@ main{
     justify-content: space-between;
     padding: 80px 0;
     border-top: 1px solid #000;
+    align-items: center;
 }
 .picture{
     width: 45%;
