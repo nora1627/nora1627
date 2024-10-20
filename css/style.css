@@ -75,12 +75,13 @@ main{
     text-align: center;
     font-size: 1.5rem;
 }
-.recommend li{
+#recommend li{
     display: flex;
     justify-content: space-between;
     padding: 80px 0;
     border-top: 1px solid #000;
     align-items: center;
+    
 }
 .picture{
     width: 45%;
@@ -92,4 +93,33 @@ main{
 #text2{
     width: 45%;
     
+}
+#sub-visual img{
+    width: 100%;
+    object-fit: cover;
+}
+#info{
+    text-align: center;
+    margin: 50px 0;
+}
+
+#last{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+}
+#last .link{
+    width: 30%;
+    writing-mode: vertical-rl;
+    line-height: 45px;
+}
+#last .sns{
+    width: 30%;
+}
+#info{
+    font-size: 1.5rem;
+}
+.price{
+    margin-left: 10px;
 }
