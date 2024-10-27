@@ -27,7 +27,8 @@ main{
 }
 #main-visual{
     margin-bottom: 120px;
-    position: relative;  
+    position: relative;
+    
 }
 #main-visual img{
     width: 100%;
@@ -44,13 +45,11 @@ main{
     display: flex;
     margin-bottom: 120px;
     justify-content: space-between;
-    flex-direction: row-reverse;
 
 }
 #phot1{
     width: 45%;
     margin-top: 50px;
-   
 }
 #phot1 img{
     height: 100%;
@@ -64,6 +63,7 @@ main{
     margin-top: 50px;
     margin-right: 5%;
     line-height: 40px;
+    
 }
 .spell{
     font-size: 1rem;
@@ -72,10 +72,6 @@ main{
     display: flex;
     display: inline-block;
     justify-content: space-between;
-    margin-bottom: 40px;
-}
-.spell p{
-    font-size: 1.2rem;
 }
 #menu .section-title{
     text-align: center;
@@ -96,8 +92,9 @@ main{
     height: 100%;
     object-fit: cover;
 }
-#text2,#text3,#text4{
+#text2{
     width: 45%;
+    
 }
 #sub-visual img{
     width: 100%;
@@ -144,92 +141,4 @@ main{
 }
 #menu .section-title{
  font-size: 2rem;
-}
-
-@media screen and (max-width: 1100px){
-    #text1 p{
-        line-height: 30px;
-    }
-
-}
-
-@media screen and (max-width: 950px){
-    #text1 p{
-        line-height: 20px;
-    }
-}
-
-@media screen and (max-width: 780px){
-    .spell p{
-        font-size: 0.7rem;
-}
-.spell h1{
-    margin-bottom: 30px;
-}
-}
-
-@media screen and (max-width: 450px){
-    #title h1{
-        font-size: 3rem;
-}
-    #claim{
-    display: inline-block;
-    margin-bottom: 60px;
-}
-    #text1{
-    width: 100%;
-    writing-mode: vertical-rl;
-}
-    #phot1{
-    width: 100%;
-    margin-top: 50px;
-    }
-    #menu .section-title {
-    font-size: 1.4rem;
-    }
-    .spell h1{
-        font-size: 1.3rem;
-        margin-bottom: 15px;
-    }
-    #recommend li{
-        display: block;
-        display: flex;
-        flex-direction: column-reverse;
-        padding:30px 0;
-    }
-    .spell p{
-        font-size: 0.8rem;
-        margin-bottom: 10px;
-}
-#text2,#text3,#text4{
-    width: 100%;
-}
-.picture{
-    width: 80%;
-}
-#main-visual{
-    margin-bottom: 60px;
-    position: relative;  
-}
-#info{
-    font-size: 1.2rem;
-}
-.wrapper{
-    width: 100%;
-    padding: 0 10%;
-}
-#text1 p{
-    line-height: 40px;
-}
-.spell{
-    padding: 0 0 0 50px;
-}
-#title{
-    position: absolute;
-    top: 60px;
-    right: 40px;
-}
-
-
-
 }
