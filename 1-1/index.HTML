@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://code-jump.com/demo/html/profile/img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/transition.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="css/appear.css">
+  </head>
+  
+
+  <body>
+    <div id="splash">
+      <div id="splash_text"></div>
+      <!--/splash--></div>
+    <div class="splashbg"></div><!---画面遷移用-->
+    <div id="container">
+    <header id="header" class="wrapper">
+      <h1 class="site-title"><a href="index.html"><img src="https://code-jump.com/demo/html/profile/img/logo.svg" alt="Profile"></a></h1>
+      <!--ここを追加-->
+	    <div class="openbtn"><span></span><span></span><span></span></div>
+      <nav id="g-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#bicycle">Bicycle</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <img src="https://code-jump.com/demo/html/profile/img/mainvisual.jpg" alt="テキストテキストテキスト">
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="section-title">About</h2>
+        <div class="content">
+          <img src="https://code-jump.com/demo/html/profile/img/about.jpg" alt="テキストテキストテキスト">
+          <div class="text">
+            <h3 class="content-title">KAKERU MIYAICHI</h3>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="bicycle" class="wrapper">
+        <h2 class="section-title">Bicycle</h2>
+        <ul class="delayScroll">
+          <li class="box">
+            <img src="https://code-jump.com/demo/html/profile/img/bicycle1.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+          <li class="box">
+            <img src="https://code-jump.com/demo/html/profile/img/bicycle2.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+          <li class="box">
+            <img src="https://code-jump.com/demo/html/profile/img/bicycle3.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2020 Profile</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    
+    <!--自作のJS-->
+    <script src="js/loading.js"></script>
+    
+    <!--自作のJS-->
+    <script src="js/transition.js"></script>
+
+    <!--自作のJS-->
+    <script src="js/hamburger.js"></script>
+
+
+  </div>
+      <!--自作のJS-->
+      <script src="js/appear.js"></script>
+  </body>
+  
+</html>
