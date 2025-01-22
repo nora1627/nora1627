@@ -17,7 +17,7 @@ particlesJS("particles-js", {
 				"width":0,
 			},
 			"image":{
-				"src":"img/flower.png",//【重要】画像を指定！桜の画像を設定してください。
+				"src":"https://www.illust-ai.com/datas/00000124.png?3",//【重要】画像を指定！桜の画像を設定してください。
 				"width":120,
 				"height":120
 			}
