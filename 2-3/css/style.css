@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/*----------------
+CSS
+作成日：2024/11/25
+作成者：ナミキ
+サイト名：TOTALLY
+----------------*/
+
+html {
+    font-size: 100%;
+/*文字サイズをデフォルトにする*/
+}
+a {
+    text-decoration: none;
+/*aタグの装飾を削除する*/
+}
+img {
+    max-width: 100%;
+/*画像を親要素以上にしない*/
+}
+li {
+    list-style: none;
+/*liタグの装飾を削除する*/
+}
+.wrapper{
+    max-width: 1000px;
+    padding: 0 100px 0 100px;
+}
+body{
+    font-family:'Raleway', sans-serif;
+}
+header{
+    max-width: 1000px;
+    padding: 0 100px 23px 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #c3c3c3;
+
+}
+.title{
+    margin: 46px auto 27px;
+    width: 109px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h2{
+    font-size: 0.75rem;
+    color: #333333;
+    font-weight: normal;
+}
+#nav-left{
+    display: flex;
+}
+#nav-left li{
+    margin-right: 14px;
+}
+#nav-right{
+    display: flex;
+}
+#nav-right li{
+    margin-left: 14px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 39px auto 0;
+    margin-bottom: 111px;
+}
+#main-visual{
+    max-width: 50%;
+    margin-top: 10px;
+}
+#content{
+    max-width: 42.5%;
+}
+#paragraph .top{
+    font-size: 1rem;
+    border-top:1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    padding: 18px 0;
+    margin-bottom: 30px;
+}
+#paragraph p{
+    font-size: 0.75rem;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+#quantity{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 0.75rem;
+    margin-bottom: 18px;
+}
+#quantity th{
+    font-weight: normal;
+    padding: 7px;
+}
+#quantity td{
+    padding: 7px;
+}
+#quantity th:first-child,#quantity th:nth-child(2){
+    width: 20%;
+}
+#quantity th:nth-child(3){
+    width: 60%;
+}
+#quantity select{
+    border: 1px solid #c3c3c3;
+    -webkit-appearance: menulist;
+    width: 100%;
+    padding: 0 10px;
+
+}
+#quantity th,#quantity td{
+    border-right: 1px solid #c3c3c3;
+}/*縦線設定*/
+#quantity th:last-child,#quantity td:last-child{
+    border-right: none;
+}/*最後の縦線消去*/
+#quantity td{
+    border-top: 1px solid #c3c3c3;
+}/*横線設定*/
+.btn{
+    border: 1px solid #4B4B4B;
+    background-color: #4B4B4B;
+    text-align: center;
+    padding: 15.5px 0;
+    font-size: 0.75rem;
+    margin-bottom: 30px;
+}
+.btn p{
+    color: #FFFFFF;
+}
+#size {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #c3c3c3;
+    font-size: 0.75rem;
+}
+#size th , #size td{
+    border-right: 1px solid #c3c3c3;
+    border-top: 1px solid #c3c3c3;
+    font-weight: normal;
+}
+#size thead tr:first-child{
+    border-collapse: collapse;
+    background-color: #ECEBEB;
+}
+#size td:first-child{
+    background-color: #ECEBEB;
+}
+footer{
+    text-align: center;
+}
+#size th:first-child{
+    width: 16%;
+}
+#size th{
+    width: 28%;
+    padding: 7px;
+}
+#size td{
+    padding: 7px;
+}
+footer p{
+    font-size: 0.625rem;
+}
